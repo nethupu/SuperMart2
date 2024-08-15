@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Page</title>
+
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="order.css">
+</head>
+<body>
+  <!-- Header section -->
+  <header>
+
+    <!-- Displaying the logo -->
+    <div class="logo">
+      <img src="logo - Copy.png" alt="Logo" id="logo">
+    </div>
+
+    <div class="mainfont">
+      <h1><span style="color:#3f09d5">Super</span><span style="color:#FFD700">Mart</span></h1>
+    </div>
+
+    <!-- Displaying the navigation bar -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About us</a></li>
+        <li><a href="diary.html">Dairy Product</a></li>
+        <li><a href="vegetable.html">Vegetable</a></li>
+        <li><a href="cosmetics.html">Cosmetics</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="loyalty.html">Loyality</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <br>
+  <h1>Grocery Ordering</h1>
+  <!--Order items will be displayed here-->
+  <div class="OrderContainer">
+    <form id="orderForm">
+      <!-- Fruits Section -->
+      <section class="grocery-section">
+        <h2>Fruits</h2>
+        <div class="item-row">
+          <img src="./Order page Images/Apple.jpg" alt="Apples" class="item-image">
+          <label>
+            Apples:
+            <p>Rs. 960 - 1Kg</p>
+            <input type="number" placeholder="Enter amount in Kg" name="Apples" min="0" data-price="960" data-section="fruits">
+          </label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+        <div class="item-row">
+          <img src="./Order page Images/Banana.jpg" alt="Bananas" class="item-image">
+          <label>
+            Bananas:
+            <p>Rs. 980 - 1Kg</p> 
+            <input type="number" placeholder="Enter amount in Kg" name="Bananas" min="0" data-price="380" data-section="fruits"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+        <div class="item-row">
+          <img src="./Order page Images/Oranges.jpg" alt="Oranges" class="item-image">
+          <label>
+            Oranges:
+            <p>Rs. 800 - 1Kg</p> 
+            <input type="number" placeholder="Enter amount in Kg" name="Oranges" min="0" data-price="800" data-section="fruits"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+        <div class="item-row">
+          <img src="./Order page Images/Grapes.jpg" alt="Grapes" class="item-image">
+          <label>
+            Grapes:
+            <p>Rs. 1000 - 1Kg</p> 
+            <input type="number" placeholder="Enter amount in Kg" name="Grapes" min="0" data-price="1000" data-section="fruits"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+        <div class="item-row">
+          <img src="./Order page Images/Mango.jpg" alt="Mangoes" class="item-image">
+          <label>
+            Mangoes:
+            <p>Rs. 1200 - 1Kg</p> 
+            <input type="number" placeholder="Enter amount in Kg" name="Mangoes" min="0" data-price="1200" data-section="fruits"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+        <div class="item-row">
+          <img src="./Order page Images/Strawberries.jpg" alt="Strawberries" class="item-image">
+          <label>
+            Strawberries:
+            <p>Rs. 1500 - 1Kg</p> 
+            <input type="number" placeholder="Enter amount in Kg" name="Strawberries" min="0" data-price="1500" data-section="fruits"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+      </section>
+      <br>
+      <!-- Vegetables Section -->
+      <section class="grocery-section">
+        <h2>Vegetables</h2>
+        <div class="item-row">
+          <img src="./Order page Images/Carrots.jpg" alt="Carrots" class="item-image">
+          <label>
+            Carrots:
+            <p>Rs. 480 - 1Kg</p> 
+            <input type="number" placeholder="Enter amount in Kg" name="Carrots" min="0" data-price="480" data-section="vegetables"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+        <div class="item-row">
+          <img src="./Order page Images/Tomatoes.jpg" alt="Tomatoes" class="item-image">
+          <label>
+            Tomatoes:
+            <p>Rs. 900 - 1Kg</p> 
+            <input type="number" placeholder="Enter amount in Kg" name="Tomatoes" min="0" data-price="900" data-section="vegetables"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+        <div class="item-row">
+          <img src="./Order page Images/Potatoes.jpg" alt="Potatoes" class="item-image">
+          <label>
+            Potatoes:
+            <p>Rs. 350 - 1Kg</p> 
+            <input type="number" placeholder="Enter amount in Kg" name="Potatoes" min="0" data-price="350" data-section="vegetables"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+        <div class="item-row">
+          <img src="./Order page Images/Onions.jpg" alt="Onions" class="item-image">
+          <label>Onions:
+            <p>Rs. 200 - 1Kg</p> 
+            <input type="number" placeholder="Enter amount in Kg" name="Onions" min="0" data-price="200" data-section="vegetables"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+        <div class="item-row">
+          <img src="./Order page Images/Broccoli.jpg" alt="Broccoli" class="item-image">
+          <label>Broccoli:
+            <p>Rs. 640 - 1Kg</p> 
+            <input type="number" placeholder="Enter amount in Kg" name="Broccoli" min="0" data-price="640" data-section="vegetables"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+        <div class="item-row">
+          <img src="./Order page Images/Spinach.jpg" alt="Spinach" class="item-image">
+          <label>
+            Spinach: 
+            <p>Rs. 1120 - 1Kg</p>
+            <input type="number" placeholder="Enter amount in Kg" name="Spinach" min="0" data-price="1120" data-section="vegetables"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+      </section>
+      <br>
+      <!-- Dairy Produce Section -->
+      <section class="grocery-section">
+        <h2>Dairy Produce</h2>
+        <div class="item-row">
+          <img src="./Order page Images/Milk.jpg" alt="Milk" class="item-image">
+          <label>
+            Milk:
+            <p>Rs. 250</p> 
+            <input type="number" placeholder="Enter amount" name="Milk" min="0" data-price="250"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+        <div class="item-row">
+          <img src="./Order page Images/Cheese.jpg" alt="Cheese" class="item-image">
+          <label>
+            Cheese: 
+            <p>Rs. 1800</p>
+            <input type="number" placeholder="Enter amount" name="Cheese" min="0" data-price="1800"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+        <div class="item-row">
+          <img src="./Order page Images/Yogurt.jpg" alt="Yogurt" class="item-image">
+          <label>
+            Yogurt (quantity):
+            <p>Rs. 150</p> 
+            <input type="number" placeholder="Enter amount" name="Yogurt" min="0" data-price="150"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+        <div class="item-row">
+          <img src="./Order page Images/Butter.jpg" alt="Butter" class="item-image">
+          <label>
+            Butter (quantity): 
+            <p>Rs. 1500</p>
+            <input type="number" placeholder="Enter amount" name="Butter" min="0" data-price="1500"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+        <div class="item-row">
+          <img src="./Order page Images/Eggs.jpg" alt="Eggs" class="item-image">
+          <label>
+            Eggs (quantity): 
+            <p>Rs. 30</p>
+            <input type="number" placeholder="Enter amount" name="Eggs" min="0" data-price="30"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+        <div class="item-row">
+          <img src="./Order page Images/Cream.jpg" alt="Cream" class="item-image">
+          <label>
+            Cream (quantity): 
+            <p>Rs. 1200</p>
+            <input type="number" placeholder="Enter amount" name="Cream" min="0" data-price="1200"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+      </section>
+      <br>
+      <!-- Meat Section and seafood section-->
+      <section class="grocery-section">
+        <h2>Meat & Seafood</h2>
+        <div class="item-row">
+          <img src="./Order page Images/Chicken.jpg" alt="Chicken" class="item-image">
+          <label>
+            Chicken:
+            <p>Rs. 1200 - 1Kg</p> 
+            <input type="number" placeholder="Enter amount in Kg" name="Chicken" min="0" data-price="1200" data-section="meat"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+        <div class="item-row">
+          <img src="./Order page Images/Beef.jpg" alt="Beef" class="item-image">
+          <label>
+            Beef:
+            <p>Rs 1500 - 1Kg</p> 
+            <input type="number" placeholder="Enter amount in Kg" name="Beef" min="0" data-price="1500" data-section="meat"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+        <div class="item-row">
+          <img src="./Order page Images/Shrimp.jpg" alt="Shrimp" class="item-image">
+          <label>
+            Shrimp:
+            <p>Rs 2000 - 1Kg</p> 
+            <input type="number" placeholder="Enter amount in Kg" name="Shrimp" min="0" data-price="2000" data-section="meat"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+        <div class="item-row">
+          <img src="./Order page Images/Salmon.jpg" alt="Salmon" class="item-image">
+          <label>
+            Salmon:
+            <p>Rs. 2500 - 1Kg</p> 
+            <input type="number" placeholder="Enter amount in Kg" name="Salmon" min="0" data-price="2500" data-section="meat"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+      </section>
+      <br>
+      <!-- Baking Ingredients Section -->
+      <section class="grocery-section">
+        <h2>Baking Ingredients</h2>
+        <div class="item-row">
+          <img src="./Order page Images/Flour.jpg" alt="Flour" class="item-image">
+          <label>
+            Flour:
+            <p>Rs. 150</p> 
+            <input type="number" placeholder="Enter amount in Kg" name="Flour" min="0" data-price="150"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+        <div class="item-row">
+          <img src="./Order page Images/Sugar.jpg" alt="Sugar" class="item-image">
+          <label>
+            Sugar:
+            <p>Rs. 180</p> 
+            <input type="number" placeholder="Enter amount in Kg" name="Sugar" min="0" data-price="180"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+        <div class="item-row">
+          <img src="./Order page Images/Baking Soda.jpg" alt="Baking Soda" class="item-image">
+          <label>
+            Baking Soda:
+            Rs. 300 
+            <input type="number" placeholder="Enter amount" name="Baking soda" min="0" data-price="300"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+        <div class="item-row">
+          <img src="./Order page Images/Cocoa Powder.jpg" alt="Cocoa Powder" class="item-image">
+          <label>
+            Cocoa Powder: 
+            <p>Rs. 800  - 1Kg</p>
+            <input type="number" placeholder="Enter amount in Kg" name="Cocoa powder" min="0" data-price="800"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+        <div class="item-row">
+          <img src="./Order page Images/Salt.jpg" alt="Salt" class="item-image">
+          <label>
+            Salt: 
+            <p>Rs. 100</p>
+            <input type="number" placeholder="Enter amount in Kg" name="Salt" min="0" data-price="100"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+        <div class="item-row">
+          <img src="./Order page Images/Olive Oil.jpg" alt="Oliveoil" class="item-image">
+          <label>
+            Olive oil:
+            <p>Rs. 1500 - 1L</p> 
+            <input type="number" placeholder="Enter amount" name="Olive oil" min="0" data-price="1500"></label>
+          <button type="button" class="addToCart">Add to Cart</button>
+        </div>
+      </section>
+      <br>
+      <!-- Order Summary Section -->
+      <section class="order-summary">
+        <h2>Order Summary</h2>
+        <h2>Total Price: <span id="totalPrice">0</span></h2>
+        <table id="orderSummary">
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Quantity</th>
+              <th>Price (LKR)</th>
+              <th>Remove</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Order summary items will be dynamically added here -->
+          </tbody>
+        </table>
+      </section>
+      <button type="button" id="saveFavorites" class="tablesbtn">Save as Favorite</button>
+      <button type="button" id="applyFavorites" class="tablesbtn">Apply Favorites</button>
+      <button type="button" id="purchaseButton" class="tablesbtn">Purchase</button>
+    </form>
+  </div>
+  
+  <!-- Footer section -->
+  <footer>
+    <div class="logo">
+      <img src = "logo - Copy.png" alt = "logo" class = "image1" class = "company-logo">
+    </div>
+    <div>
+      <h2 class = "footerheading" id = "ContactUs">Contact Info</h2>
+      <div class = "info">
+        <div>
+          <span class = "fas fa-map-marker-alt"></span>
+          <span>Family Grocery<br> 103 Galle Rd, Dehiwala</span>
+        </div> 
+        <div>
+          <span class = "fas fa-phone-alt"></span>
+          <p><a href = "tel:0751234567">0771234567</a></p>
+        </div>   
+        <div>
+          <span class = "fas fa-envelope"></span>
+          <p><a href = "mailto:info@KDS.lk">info@family.lk</a></p>
+        </div>        
+      </div>
+    </div>
+    <div>
+      <h2  class = "footerheading">Follow Us</h2>
+      <div class = "social">
+        <a href="https://www.instagram.com/dinid_u_?igsh=MXAyZTRmcWp3emFibA%3D%3D&utm_source=qr ">Facebook</a>
+        <br>
+        <a href="https://www.instagram.com/dinid_u_?igsh=MXAyZTRmcWp3emFibA%3D%3D&utm_source=qr ">Twitter</a>
+        <br>
+        <a href="https://www.instagram.com/dinid_u_?igsh=MXAyZTRmcWp3emFibA%3D%3D&utm_source=qr ">Instagram</a>
+      </div>
+    </div>
+  </footer>
+  <script src="order.js"></script>
+</body>
+</html>
